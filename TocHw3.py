@@ -4,6 +4,9 @@
 #學號:F74006323
 #系級:資訊104乙班
 
+#程式碼簡介
+#從argument抓要parse的區跟路名及年分
+#將每一個總價元加總在除以總數即為答案
 import urllib
 import sys
 import json

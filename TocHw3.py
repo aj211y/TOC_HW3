@@ -36,4 +36,4 @@ else:
 		print "There is no possible answer in the data."
 	else:
 		avg_price=output/num #輸出答案
-		print avg_prices
+		print avg_price

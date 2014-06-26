@@ -32,6 +32,8 @@ else:
 			output += int(element[u"總價元"]) 
 			num += 1
 		i += 1
-	avg_price=output/num #輸出答案
-	print avg_price
-	
+	if(num==0):
+		print "There is no possible answer in the data."
+	else:
+		avg_price=output/num #輸出答案
+		print avg_prices
